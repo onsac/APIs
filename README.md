@@ -137,10 +137,9 @@ https://github.com/onsac/APIs/blob/master/Material.PNG" alt="Tela-Material" >
      <img src="https://github.com/onsac/APIs/blob/master/Fornecedor.PNG" alt="Tela-Fornecedor" >
 </p>
 <p align="center">
-     <img src="
-https://github.com/onsac/APIs/blob/master/AutenticacaoMovimento.PNG" alt="Tela-autenticação Movimento" >
+     <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoMovimento.PNG" alt="Tela-autenticação Movimento" >
 </p>
-<p align="center">
-     <img src="
-https://github.com/onsac/APIs/blob/master/Movimento.PNG" alt="Tela-Movimento" >
+
+<p align="center">      
+    <img src="https://github.com/onsac/APIs/blob/master/Movimento.PNG" alt="Tela-Movimento" >
 </p>
