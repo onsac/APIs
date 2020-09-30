@@ -16,7 +16,7 @@
 ## API SIGMA
 
 A API SIGMA foi desenvolvida para viabilizar e controlar o acesso as views da base de dados stage em Oracle que é atualizada diáriamente via datagrid com informações da base de dados DB2.
-Para iniciar uma implementação de consumo das API, será necessário solicitar um cadastro e acesso ao Recurso no via (https://jeap.rio.rj.gov.br), após conseguir o :
+Para iniciar uma implementação de consumo das API, será necessário solicitar um cadastro e acesso ao Recurso via (https://jeap.rio.rj.gov.br), após conseguir o :
 ID consumidor e Chave de Acesso
 
 Siga as instruções abaixo. 
@@ -33,18 +33,18 @@ sigma.vw_fornecedor tb_fornecedor
 sigma.vw_movimentacao
 ```
 
-O serviço da API fica no servidor 10.70.15.16 na porta 8989, se o sistema que vai consumir a API estiver na rede da PCRJ não será preciso solicitar liberação de acesso no Firewall, porém se o sistema estiver na nuvem, será necessário solicitar um acesso via IP externo (IP Externo : 187.111.110.174) a equipe da DOP.
+O serviço da API fica no servidor 10.70.15.16 na porta 8899, se o sistema que vai consumir a API estiver na rede da PCRJ não será preciso solicitar liberação de acesso no Firewall, porém se o sistema estiver na nuvem, será necessário solicitar um acesso via IP externo (IP Externo : 187.111.110.174) a equipe da DOP.
 
 O primeiro passo apos conseguir os devidos acessos, é implementar o metodo de autenticação
 
 ```sh
-http://10.70.15.16:8989/api/autenticacao
+http://10.70.15.16:8899/api/autenticacao
 ```
 
 Para realizar a autenticação será necessário a seguinte estrutura para o peyload 
 
 ```sh
-Request URL : http://10.70.15.16:8989/api/autenticacao 
+Request URL : http://10.70.15.16:8899/api/autenticacao 
 Method      : POST
 Headers     : 
    - consumidor : <id do consumidor informada pelo cerberus>
@@ -59,7 +59,7 @@ Grupos - Relação de grupos de materiais
 /api/sigma/grupo
 
 ```sh
-Request URL : http://10.70.15.16:8989/api/sigma/grupo 
+Request URL : http://10.70.15.16:8899/api/sigma/grupo 
 Method      : GET
 Headers     : 
    - token      : token
