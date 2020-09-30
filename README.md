@@ -106,3 +106,41 @@ http://10.70.15.16:8899/api/sigma/movimento/:fornecedor_id/nota/:nota_id/serie/:
 <p align="center">
      <img src="https://github.com/onsac/AIO-Integrador/blob/master/Telas-Configura%C3%A7%C3%A3o/Tela-Autentica%C3%A7%C3%A3o%20API%20SIGMA.jpeg" alt="Tela-autenticação API SIGMA" >
 </p>
+
+<p align="center">
+     <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoGrupo.PNG" alt="Tela-autenticação Grupo" >
+</p>
+
+<p align="center">
+     <img src="https://github.com/onsac/APIs/blob/master/Grupo.PNG" alt="Tela-Grupo" >
+</p>
+
+<p align="center">
+     <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoMaterial.PNG" alt="Tela-autenticação Material" >
+</p>
+
+<p align="center">
+     <img src="
+https://github.com/onsac/APIs/blob/master/Material.PNG" alt="Tela-Material" >
+</p>
+<p align="center">
+     <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoUnidadeCompra.PNG" alt="Tela-autenticação Unidade de Compra" >
+</p>
+
+<p align="center">
+     <img src="https://github.com/onsac/APIs/blob/master/UnidadeCompra.PNG" alt="Tela-Unidade de Compra" >
+</p>
+<p align="center">
+     <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoFornecedor.PNG" alt="Tela-autenticação Fornecedor" >
+</p>
+<p align="center">
+     <img src="https://github.com/onsac/APIs/blob/master/Fornecedor.PNG" alt="Tela-Fornecedor" >
+</p>
+<p align="center">
+     <img src="
+https://github.com/onsac/APIs/blob/master/AutenticacaoMovimento.PNG" alt="Tela-autenticação Movimento" >
+</p>
+<p align="center">
+     <img src="
+https://github.com/onsac/APIs/blob/master/Movimento.PNG" alt="Tela-Movimento" >
+</p>
