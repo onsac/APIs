@@ -120,8 +120,7 @@ http://10.70.15.16:8899/api/sigma/movimento/:fornecedor_id/nota/:nota_id/serie/:
 </p>
 
 <p align="center">
-     <img src="
-https://github.com/onsac/APIs/blob/master/Material.PNG" alt="Tela-Material" >
+     <img src="https://github.com/onsac/APIs/blob/master/Material.PNG" alt="Tela-Material" >
 </p>
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoUnidadeCompra.PNG" alt="Tela-autenticação Unidade de Compra" >
