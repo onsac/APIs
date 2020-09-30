@@ -66,17 +66,7 @@ Headers     :
 ```  
 
 
-
-```sh 
 http://10.70.15.16:8899/api/sigma/grupo/:grupo_id/classe/:classe_id/subclasse/:subclasse_id
-http://10.70.15.16:8899/api/sigma/material/:grupo_id+classe_id+subclasse_id
-http://10.70.15.16:8899/api/sigma/material/:material_id
-http://10.70.15.16:8899/api/sigma/unidade/:unidade_id
-http://10.70.15.16:8899/api/sigma/fornecedor/:fornecedor_id
-http://10.70.15.16:8899/api/sigma/movimento/:fornecedor_id/emissao/:emissao_id/nota/:nota_id/serie/:serie_id
-```
-
-
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoGrupo.PNG" alt="Tela-autenticação Grupo" >
 </p>
@@ -84,14 +74,15 @@ http://10.70.15.16:8899/api/sigma/movimento/:fornecedor_id/emissao/:emissao_id/n
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/Grupo.PNG" alt="Tela-Grupo" >
 </p>
-
+http://10.70.15.16:8899/api/sigma/material/:grupo_id+classe_id+subclasse_id
+http://10.70.15.16:8899/api/sigma/material/:material_id
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoMaterial.PNG" alt="Tela-autenticação Material" >
 </p>
-
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/Material.PNG" alt="Tela-Material" >
 </p>
+http://10.70.15.16:8899/api/sigma/unidade/:unidade_id
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoUnidadeCompra.PNG" alt="Tela-autenticação Unidade de Compra" >
 </p>
@@ -99,12 +90,14 @@ http://10.70.15.16:8899/api/sigma/movimento/:fornecedor_id/emissao/:emissao_id/n
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/UnidadeCompra.PNG" alt="Tela-Unidade de Compra" >
 </p>
+http://10.70.15.16:8899/api/sigma/fornecedor/:fornecedor_id
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoFornecedor.PNG" alt="Tela-autenticação Fornecedor" >
 </p>
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/Fornecedor.PNG" alt="Tela-Fornecedor" >
 </p>
+http://10.70.15.16:8899/api/sigma/movimento/:fornecedor_id/emissao/:emissao_id/nota/:nota_id/serie/:serie_id
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoMovimento.PNG" alt="Tela-autenticação Movimento" >
 </p>
