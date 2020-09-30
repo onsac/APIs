@@ -54,17 +54,6 @@ Headers     :
 ```  
 Esse request vai retornar um token, esse token é valido por 24hs e deve ser informado nos requests para os endpoints desejados, relacionados abaixo
 
-Grupos - Relação de grupos de materiais
-
-/api/sigma/grupo
-
-```sh
-Request URL : http://10.70.15.16:8899/api/sigma/grupo 
-Method      : GET
-Headers     : 
-   - token      : token
-```  
-
 # Grupo
 http://10.70.15.16:8899/api/sigma/grupo/:grupo_id/classe/:classe_id/subclasse/:subclasse_id
 <p align="center">
