@@ -76,9 +76,6 @@ http://10.70.15.16:8899/api/sigma/fornecedor/:fornecedor_id
 http://10.70.15.16:8899/api/sigma/movimento/:fornecedor_id/emissao/:emissao_id/nota/:nota_id/serie/:serie_id
 ```
 
-<p align="center">
-     <img src="https://github.com/onsac/AIO-Integrador/blob/master/Telas-Configura%C3%A7%C3%A3o/Tela-Autentica%C3%A7%C3%A3o%20API%20SIGMA.jpeg" alt="Tela-autenticação API SIGMA" >
-</p>
 
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoGrupo.PNG" alt="Tela-autenticação Grupo" >
