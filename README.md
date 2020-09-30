@@ -68,40 +68,13 @@ Headers     :
 
 
 ```sh 
-/autenticacao
-/api/sigma/grupo/:grupo_id/classe/:classe_id/subclasse/:subclasse_id/unidade/:unidade_id
-/api/sigma/material/:grupo_id/classe/:classe_id/subclasse/:subclasse_id/unidade/:unidade_id
-/api/sigma/fornecedor/:fornecedor_id
-/api/sigma/movimentacao/os/:os_id/nota/:nota_id/serie/:serie_id
-/api/sigma/movimentacao/fornecedor/:fornecedor_id/nota/:nota_id/serie/:serie_id
-/api/sigma/os/:os_id
-```
-
-
-
 http://10.70.15.16:8899/api/sigma/grupo/:grupo_id/classe/:classe_id/subclasse/:subclasse_id
 http://10.70.15.16:8899/api/sigma/material/:grupo_id+classe_id+subclasse_id
 http://10.70.15.16:8899/api/sigma/material/:material_id
 http://10.70.15.16:8899/api/sigma/unidade/:unidade_id
 http://10.70.15.16:8899/api/sigma/fornecedor/:fornecedor_id
 http://10.70.15.16:8899/api/sigma/movimento/:fornecedor_id/emissao/:emissao_id/nota/:nota_id/serie/:serie_id
-
-http://10.70.15.16:8889/api/sigma/movimento/06970328000117/emissao/20190830/nota/602/serie/1
-http://10.70.15.16
-
-:8899/authenticate
-
-:8889/autenticacao
-
-</br>
-Conforme solicitado ontem, seguem as URIs das APIs :
-</br>
-http://10.70.15.16:8899/api/sigma/grupo/:grupo_id/classe/:classe_id/subclasse/:subclasse_id
-http://10.70.15.16:8899/api/sigma/material/:grupo_id+classe_id+subclasse_id
-http://10.70.15.16:8899/api/sigma/material/:material_id
-http://10.70.15.16:8899/api/sigma/unidade/:unidade_id
-http://10.70.15.16:8899/api/sigma/fornecedor/:fornecedor_id
-http://10.70.15.16:8899/api/sigma/movimento/:fornecedor_id/nota/:nota_id/serie/:serie_id
+```
 
 <p align="center">
      <img src="https://github.com/onsac/AIO-Integrador/blob/master/Telas-Configura%C3%A7%C3%A3o/Tela-Autentica%C3%A7%C3%A3o%20API%20SIGMA.jpeg" alt="Tela-autenticação API SIGMA" >
