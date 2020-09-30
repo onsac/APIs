@@ -15,7 +15,8 @@
   
 ## API SIGMA
 
-A API SIGMA foi desenvolvida para viabilizar e controlar o acesso as views da base de dados stage em Oracle que é atualizada diáriamente via datagrid com informações da base de dados DB2.
+A API SIGMA foi desenvolvida para viabilizar e controlar o acesso as views da base de dados stage em Oracle que é atualizada diáriamente via Databridge com informações da base de dados DB2 do sistema de Materiais SIGMA.
+
 Para iniciar uma implementação de consumo das API, será necessário solicitar um cadastro e acesso ao Recurso via (https://jeap.rio.rj.gov.br), após conseguir o :
 ID consumidor e Chave de Acesso
 
@@ -33,7 +34,7 @@ sigma.vw_fornecedor tb_fornecedor
 sigma.vw_movimentacao
 ```
 
-O serviço da API fica no servidor 10.70.15.16 na porta 8899, se o sistema que vai consumir a API estiver na rede da PCRJ não será preciso solicitar liberação de acesso no Firewall, porém se o sistema estiver na nuvem, será necessário solicitar um acesso via IP externo (IP Externo : 187.111.110.174) a equipe da DOP.
+O serviço da API fica no servidor 10.70.15.16 na porta 8899, se o sistema que vai consumir a API estiver na rede da PCRJ não será preciso solicitar liberação de acesso no Firewall, porém se o sistema estiver na nuvem, será necessário solicitar um acesso via IP externo (187.111.110.174) a equipe da DOP.
 
 O primeiro passo apos conseguir os devidos acessos, é implementar o metodo de autenticação
 
@@ -52,7 +53,7 @@ Headers     :
      recurso    : <recurso>
      ambiente   : <DESENVOLVIMENTO ou PRODUCAO>
 ```  
-Esse request vai retornar um token, esse token é valido por 24hs e deve ser informado nos requests para os endpoints desejados, relacionados abaixo
+Esse request vai retornar um token, esse token é valido por 24hs e deve ser informado nos requests para o endpoint do recurso desejados, relacionados abaixo
 
 # Grupo
 http://10.70.15.16:8899/api/sigma/grupo/:grupo_id/classe/:classe_id/subclasse/:subclasse_id
