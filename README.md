@@ -85,7 +85,6 @@ http://10.70.15.16:8899/api/sigma/material/:material_id
      <img src="https://github.com/onsac/APIs/blob/master/Material.PNG" alt="Tela-Material" >
 </p>
 # Unidade de Compra
-
 http://10.70.15.16:8899/api/sigma/unidade/:unidade_id
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoUnidadeCompra.PNG" alt="Tela-autenticação Unidade de Compra" >
