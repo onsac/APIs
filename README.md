@@ -74,8 +74,9 @@ http://10.70.15.16:8899/api/sigma/grupo/:grupo_id/classe/:classe_id/subclasse/:s
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/Grupo.PNG" alt="Tela-Grupo" >
 </p>
-# Material
 
+# Material
+</br>
 http://10.70.15.16:8899/api/sigma/material/:grupo_id+classe_id+subclasse_id
 http://10.70.15.16:8899/api/sigma/material/:material_id
 <p align="center">
@@ -84,7 +85,9 @@ http://10.70.15.16:8899/api/sigma/material/:material_id
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/Material.PNG" alt="Tela-Material" >
 </p>
+
 # Unidade de Compra
+</br>
 http://10.70.15.16:8899/api/sigma/unidade/:unidade_id
 <p align="center">
      <img src="https://github.com/onsac/APIs/blob/master/AutenticacaoUnidadeCompra.PNG" alt="Tela-autenticação Unidade de Compra" >
