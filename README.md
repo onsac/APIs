@@ -13,9 +13,15 @@
   </p>
   
   
-## AIO Integrador
+## API SIGMA
 
-A plataforma de integração que facilita a jornada de automação e redução de custos da sua empresa.
+A API SIGMA foi desenvolvida para viabilizar e controlar o acesso as views da base de dados stage em Oracle que é atualizada diáriamente via datagrid com informações da base de dados DB2.
+Para iniciar uma implementação de consumo das API, será necessário solicitar um cadastro e acesso ao Recurso no via (https://jeap.rio.rj.gov.br), após conseguir o :
+ID consumidor e Chave de Acesso
+
+Siga as instruções abaixo. 
+
+As APIs disponibiliza acesso as views abaixo, e entrega os resultados no padrão JSON.
 
 ```sh 
 sigma.vw_grupo tb_grupo
@@ -26,6 +32,44 @@ sigma.vw_material tb_material
 sigma.vw_fornecedor tb_fornecedor
 sigma.vw_movimentacao
 ```
+
+O serviço da API fica no servidor 10.70.15.16 na porta 8989, se o sistema que vai consumir a API estiver na rede da PCRJ não será preciso solicitar liberação de acesso no Firewall, porém se o sistema estiver na nuvem, será necessário solicitar um acesso via IP externo a equipe da DOP.
+
+O primeiro passo apos conseguir os devidos acessos, é implementar o metodo de autenticação
+
+```sh
+http://10.70.15.16:8989/api/autenticacao
+```
+
+Para realizar a autenticação será necessário a seguinte estrutura para o peyload 
+
+```sh
+Request URL : http://10.70.15.16:8989/api/autenticacao 
+Method      : POST
+Headers     : 
+   - consumidor : <id do consumidor informada pelo cerberus>
+     chaveacesso: <chave informada pelo cerberus>
+     recurso    : autenticacao
+     ambiente   : <DESENVOLVIMENTO ou PRODUCAO>
+```  
+Esse request vai retornar um token, esse token é valido por 24hs e deve ser informado nos requests para os endpoints desejados, relacionados abaixo
+
+Grupos - Relação de grupos de materiais
+
+/api/sigma/grupo
+
+```sh
+Request URL : http://10.70.15.16:8989/api/sigma/grupo 
+Method      : GET
+Headers     : 
+   - consumidor : <id do consumidor informada pelo cerberus>
+     chaveacesso: <chave informada pelo cerberus>
+     recurso    : grupo
+     ambiente   : <DESENVOLVIMENTO ou PRODUCAO>
+     token      : token
+```  
+
+
 
 ```sh 
 /autenticacao
