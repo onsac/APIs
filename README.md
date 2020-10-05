@@ -17,8 +17,7 @@
 
 A API SIGMA foi desenvolvida para viabilizar e controlar o acesso as views da base de dados stage em Oracle que é atualizada diáriamente via Databridge com informações da base de dados DB2 do sistema de Materiais SIGMA.
 
-Para iniciar uma implementação de consumo das API, será necessário solicitar um cadastro e acesso ao Recurso via (https://jeap.rio.rj.gov.br), após conseguir o :
-ID consumidor e Chave de Acesso
+Para iniciar uma implementação de consumo das API, será necessário solicitar um cadastro no Cerberus para obter o ID consumidor e Chave de Acesso do sistema e acesso a API SIGMA (código 3357) com a autorização do gestor do Sigma.
 
 Siga as instruções abaixo. 
 
