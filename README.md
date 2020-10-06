@@ -41,7 +41,7 @@ O primeiro passo apos conseguir os devidos acessos, é implementar o metodo de a
 http://10.70.15.16:8899/api/autenticacao
 ```
 
-Para realizar a autenticação será necessário a seguinte estrutura para o peyload 
+Para realizar a autenticação será necessário a seguinte estrutura para o payload 
 
 ```sh
 Request URL : http://10.70.15.16:8899/api/autenticacao 
